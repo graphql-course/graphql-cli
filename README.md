@@ -10,7 +10,10 @@ Este generador servirá para crear proyectos de GraphQL con diferentes variantes
 
 ## Hola Mundo sin variables de entorno
 
-Ejemplo en el que tenemos un simple hola mundo en GraphQL con varios tipos de saludo y con la configuración más básica.
+Ejemplo en el que tenemos un simple hola mundo en GraphQL con varios tipos de saludo y con la configuración más básica y con un resolver de tipo mutation para gestionar una pequeña lista de tareas.
+
+Aplicará la modularización de Schemas y Resolvers aparte de añadir buenas prácticas.
+
 ```graphql-hello-world```
 
 ## Hola Mundo con configuración de la base de datos MongoDB
@@ -20,7 +23,11 @@ Ejemplo en el que tenemos un simple hola mundo en GraphQL con varios tipos de sa
 
 ## Hola Mundo con variables de entorno
 
-Ejemplo en el que tenemos un simple hola mundo en GraphQL con varios tipos de saludo y con la configuración más básica. Es el mismo ejemplo que el anterior pero en este caso ya tenemos configurado el apartado de las variables de entorno para poder añadirlas en el proyecto con el fichero **.env**
+Ejemplo en el que tenemos un simple hola mundo en GraphQL con varios tipos de saludo y con la configuración más básica y con un resolver de tipo mutation para gestionar una pequeña lista de tareas.
+
+Es el mismo ejemplo que el anterior pero en este caso ya tenemos configurado el apartado de las variables de entorno para poder añadirlas en el proyecto con el fichero **.env**
+
+Aplicará la modularización de Schemas y Resolvers aparte de añadir buenas prácticas.
 ```graphql-hello-world-with-env```
 
 ## Sistema de Login / Registro con JWT
@@ -28,11 +35,15 @@ Ejemplo en el que tenemos un simple hola mundo en GraphQL con varios tipos de sa
 Ejemplo en el que tenemos un simple servidor GraphQL con la gestión de registro de usuarios, login, visualización de lista de usuarios y autenticación mediante tokens de JWT. Viene configurado el apartado de la base de datos y la configuración de las variables de entorno para que podamos empezar un proyecto con un sistema de autenticación completa como por ejemplo para crear un chat con usuarios.
 ```graphql-jwt-system```
 
+## Más proyectos de tipo template para el futuro
+
+Abierto a ideas y contribuciones, espero que os animéis a contribuir con proyectos de diferentes tipos y objetivos, para agilizar el proceso cuando trabajemos con GraphQL.
+
 # Install
-```npm install -g mugan86/graphql-project-cli```
+```npm install -g graphql-course/graphql-cli```
 # Usage
 Ejecutamos esta orden
-```graphql-anartz```
+```gql```
 
 # Example
 ![CLI](./cli.gif)
