@@ -2,9 +2,5 @@ type Query {
     hello: String!
     helloWithName(name: String!): String!
     helloToGraphQLCourse: String!
-    list: [String]
-}
-
-type Mutation {
-    add(value: String!): [String]
+    todos: [String]
 }
